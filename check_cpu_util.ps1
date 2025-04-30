@@ -6,8 +6,8 @@
     .SYNTAX
     	.\check_cpu_util.ps1 [-WARN] [-CRIT]
     .PARAMETERS
-        -WARN <int> CPU util in % until WARNING
-        -CRIT <int> CPU util in % until CRITICAL
+        -WARN <int> Warning threshold for CPU utilization (%)
+        -CRIT <int> Critical threshold for CPU utilization (%)
     .VERSION
         chr0w94 v0.1
 #>
